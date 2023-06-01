@@ -13,8 +13,8 @@ from . import views
 urlpatterns = [
     path('', views.RoutesView.as_view(), name="routes"),
     path('notes/', views.NotesListView.as_view(), name="notes"),
-    path('note/<str:p>/', views.NoteView.as_view(), name="note"),
     path('note/create/', views.CreateNoteView.as_view()),
+    path('note/<str:p>/', views.NoteView.as_view(), name="note"),
     path('note/<str:p>/update/', views.UpdateNoteView.as_view()),
     path('note/<str:p>/delete/', views.DeleteNoteView.as_view()),
     # path('register/', views.register_view, name='register'),
