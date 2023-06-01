@@ -21,6 +21,7 @@ To get started with the project, follow the instructions below.
 To run the Django development server, use the following command:
 
 python manage.py runserver or python3 manage.py runserver
+
 The server will start running on http://localhost:8000/.
 
 
