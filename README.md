@@ -14,13 +14,15 @@ To get started with the project, follow the instructions below.
 ### Installation
 
 1. Clone the repository:
-   git clone https://github.com/chauvuha/django-mock-project.git
+   ``` git clone https://github.com/chauvuha/django-mock-project.git
 2. The ReactJS frontend of this repository can be found at https://github.com/chauvuha/django-mock-project-frontend.git
 
 ### Usage
 To run the Django development server, use the following command:
 
-python manage.py runserver or python3 manage.py runserver
+```python manage.py runserver 
+or 
+```python3 manage.py runserver
 
 The server will start running on http://localhost:8000/.
 
