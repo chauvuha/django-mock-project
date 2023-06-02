@@ -9,7 +9,7 @@ To get started with the project, follow the instructions below.
 ### Prerequisites
 
 - Python 3.11
-- Django [version]
+- Django 4.2.1
 
 ### Installation
 
